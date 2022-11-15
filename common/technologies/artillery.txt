@@ -416,7 +416,7 @@ technologies = {
 		}
 	}
 	
-	# Dual Purpose Artillery
+	# Dual-Purpose Artillery
 	dp_artillery = {
 	
 		enable_equipments = {

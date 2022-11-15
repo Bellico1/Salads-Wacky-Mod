@@ -13,7 +13,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1918
+		start_year = 1936
 		
 		categories = {
 			armor
@@ -37,7 +37,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940	
+		start_year = 1938	
 
 		categories = {
 			armor
@@ -61,7 +61,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1942
+		start_year = 1940
 		
 		categories = {
 			armor
@@ -80,7 +80,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 1942
 		
 		categories = {
 			armor
@@ -106,7 +106,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1918
+		start_year = 1936
 		
 		categories = {
 			armor
@@ -199,7 +199,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 1938
 		
 		categories = {
 			armor
@@ -223,7 +223,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1941
+		start_year = 1940
 		
 		categories = {
 			armor
@@ -247,7 +247,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1943
+		start_year = 1942
 		
 		categories = {
 			armor
@@ -257,43 +257,6 @@ technologies = {
 		ai_will_do = {
 			factor = 0
 		}
-	}
-	
-	heavy_tank_4 = { 
-
-		enable_equipments = {
-			heavy_tank_equipment_4
-		}
-		
-		research_cost = 2
-		start_year = 1945
-		
-		categories = {
-			armor
-			cat_heavy_armor
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	# Japanese Terrain Buffs
-	adaptable_armor_designs = {
-
-		research_cost = 1
-
-		category_light_tanks = {
-			jungle = {
-				attack = 0.1
-				movement = 0.15
-			}
-			mountain = {
-				attack = 0.05
-				movement = 0.05
-			}
-		}
-		
 	}
 	
 }

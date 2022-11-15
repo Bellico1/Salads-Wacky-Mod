@@ -778,6 +778,31 @@ equipment_modules = {
 		dismantle_cost_ic = 5
 	}
 
+tank_heavy_turret_3 = { 
+		abbreviation = "h4m"
+		category = tank_heavy_turret_type
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type = anti_air
+		forbid_equipment_type = anti_tank
+		forbid_equipment_type = artillery
+		
+		allowed_module_categories = {
+			main_armament_slot = {
+			tank_armament_tier_7
+			}
+		}
+
+		
+		add_stats = {
+			build_cost_ic = 10
+		}
+
+		build_cost_resources = {
+			steel = 10
+		}
+		dismantle_cost_ic = 5
+	}
+
 	tank_heavy_superstructure = { ## TIER 9 ##
 		abbreviation = "hfs"
 		category = tank_heavy_turret_type_1
@@ -1377,7 +1402,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 2
 	}
-
+# here
 	tank_med_gun_1 = { ###2
 		abbreviation = "mg1"
 		category = tank_armament_tier_4

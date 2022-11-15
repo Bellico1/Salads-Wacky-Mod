@@ -24,7 +24,7 @@ equipments = {
 		}
 		maximum_speed = 5.5
 		build_cost_ic = 9.5
-		reliability = 0.85
+		reliability = 0.80
 		armor_value = 10
 		defense = 4
 		breakthrough = 20
@@ -57,7 +57,7 @@ equipments = {
 		reliability = 0.85
 		armor_value = 10
 		defense = 5
-		breakthrough = 25
+		breakthrough = 30
 	}
 
 	# Harry Hopkins
@@ -86,7 +86,7 @@ equipments = {
 		}
 		maximum_speed = 6
 		build_cost_ic = 12
-		reliability = 0.85
+		reliability = 0.9
 		armor_value = 30
 		defense = 6
 		breakthrough = 40
